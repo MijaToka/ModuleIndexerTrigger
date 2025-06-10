@@ -1,0 +1,2559 @@
+Layer 1 has 51 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        9               17              21.6            3               0              
+1        OK              True (2)        4(2+2)          11(7+4)         18.0            0               5              
+2        OK              True (1)        6               13              21.6            3               0              
+3        OK              True (2)        4(2+2)          10(6+4)         14.4            0               4              
+4        OK              True (1)        7               16              21.6            3               0              
+5        OK              True (1)        8               17              18.0            3               0              
+6        OK              True (2)        4(2+2)          10(6+4)         18.0            0               5              
+7        OK              True (2)        4(2+2)          8(5+3)          14.4            0               4              
+8        OK              True (2)        6(3+3)          11(6+5)         20.4            0               6              
+9        OK              True (2)        6(3+3)          11(6+5)         18.0            0               5              
+10       OK              True (2)        4(2+2)          10(6+4)         18.0            0               5              
+11       OK              True (2)        6(3+3)          14(7+7)         18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1]]
+MB 4 check results: OK
+MB 5 check results: OK
+MB 6 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 7 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[8, 4], [9, 5], [10, 6]] [[9, 4], [10, 4], [10, 5]]
+MB 9 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 11 check results: OK
+	 Sub-trains are: [[6, 5], [5, 4]] [[7, 6], [8, 7], [9, 8]]
+
+Layer 2 has 46 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        9(2+7)          4(2+2)          21.6            3               0              
+1        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+2        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+3        NOTOK           True (2)        8(2+6)          6(2+4)          21.6            3               0              
+4        NOTOK           True (2)        7(4+3)          6(4+2)          21.6            3               0              
+5        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+6        OK              True (1)        3               6               14.4            0               4              
+7        OK              True (2)        3(2+1)          6(4+2)          14.4            0               4              
+8        OK              True (2)        4(3+1)          8(6+2)          18.0            0               5              
+9        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+10       WARN            True (2)        6(4+2)          8(6+2)          18.0            0               5              
+11       NOTOK           True (2)        9(2+7)          4(2+2)          18.0            3               0              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0]] [[5, 0]]
+MB 2 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 3 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: OK
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2]] [[6, 2]]
+MB 6 check results: OK
+MB 7 check results: OK
+	 Sub-trains are: [[8, 4], [9, 5], [10, 5]] [[7, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 6]] [[6, 3]]
+MB 9 check results: OK
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7]] [[6, 4]]
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 5], [7, 6], [8, 7], [9, 8]] [[5, 4]]
+	 - Cross-over is required
+MB 11 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 3]] [[3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+
+Layer 3 has 51 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        9               25              21.6            3               0              
+1        NOTOK           True (2)        5(3+2)          15(9+6)         18.0            0               5              
+2        OK              True (1)        9               22              21.6            3               0              
+3        OK              True (2)        4(2+2)          12(7+5)         14.4            0               4              
+4        OK              True (1)        7               19              21.6            3               0              
+5        NOTOK           True (2)        4(2+2)          15(9+6)         18.0            0               5              
+6        OK              True (1)        10              24              18.0            3               0              
+7        NOTOK           True (2)        6(3+3)          17(9+8)         18.0            0               5              
+8        NOTOK           True (2)        4(2+2)          15(9+6)         18.0            0               5              
+9        NOTOK           True (2)        6(3+3)          16(9+7)         18.0            0               5              
+10       OK              True (2)        4(2+2)          12(7+5)         14.4            0               4              
+11       OK              True (2)        6(3+3)          13(7+6)         20.4            0               6              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: Rules failed (details below)
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+	 - Too many links in total
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1]]
+MB 4 check results: OK
+MB 5 check results: Rules failed (details below)
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+	 - Too many links in total
+MB 6 check results: OK
+MB 7 check results: Rules failed (details below)
+	 Sub-trains are: [[6, 5], [5, 4]] [[7, 6], [8, 7], [9, 8]]
+	 - Too many links in total
+MB 8 check results: Rules failed (details below)
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+	 - Too many links in total
+MB 9 check results: Rules failed (details below)
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+	 - Too many links in total
+MB 10 check results: OK
+	 Sub-trains are: [[8, 4], [7, 3]] [[9, 5], [10, 6]]
+MB 11 check results: OK
+	 Sub-trains are: [[8, 3], [9, 4], [10, 5]] [[9, 3], [10, 3], [10, 4]]
+
+Layer 4 has 48 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        9(2+7)          4(2+2)          21.6            3               0              
+1        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+2        NOTOK           True (2)        9(2+7)          6(2+4)          21.6            3               0              
+3        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+4        NOTOK           True (2)        7(4+3)          6(4+2)          21.6            3               0              
+5        NOTOK           True (2)        10(3+7)         4(2+2)          18.0            3               0              
+6        WARN            True (2)        6(4+2)          8(6+2)          18.0            0               5              
+7        OK              True (2)        4(3+1)          8(6+2)          18.0            0               5              
+8        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+9        OK              True (2)        3(2+1)          6(4+2)          14.4            0               4              
+10       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+11       OK              True (1)        6               6               18.0            0               6              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0]] [[5, 0]]
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 3]] [[3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+MB 6 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 5], [7, 6], [8, 7], [9, 8]] [[5, 4]]
+	 - Cross-over is required
+MB 7 check results: OK
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7], [10, 7]] [[6, 4]]
+MB 8 check results: OK
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6]] [[6, 3]]
+MB 9 check results: OK
+	 Sub-trains are: [[8, 3], [9, 3], [10, 3]] [[7, 3]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2]] [[6, 2]]
+MB 11 check results: OK
+
+Layer 5 has 51 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        11              26              21.6            3               0              
+1        NOTOK           True (2)        5(3+2)          15(9+6)         18.0            0               5              
+2        OK              True (1)        9               23              21.6            3               0              
+3        OK              True (2)        4(2+2)          12(7+5)         14.4            0               4              
+4        OK              True (1)        7               19              21.6            3               0              
+5        OK              True (1)        10              25              18.0            3               0              
+6        OK              True (2)        4(2+2)          13(7+6)         18.0            0               5              
+7        OK              True (2)        4(2+2)          10(7+3)         14.4            0               4              
+8        OK              True (2)        6(3+3)          12(7+5)         20.4            0               6              
+9        NOTOK           True (2)        5(2+3)          15(9+6)         18.0            0               5              
+10       OK              True (2)        4(2+2)          13(7+6)         18.0            0               5              
+11       NOTOK           True (2)        6(3+3)          17(9+8)         18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: Rules failed (details below)
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+	 - Too many links in total
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1]]
+MB 4 check results: OK
+MB 5 check results: OK
+MB 6 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 7 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[8, 4], [9, 5], [10, 6]] [[9, 4], [10, 4], [10, 5]]
+MB 9 check results: Rules failed (details below)
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+	 - Too many links in total
+MB 10 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 11 check results: Rules failed (details below)
+	 Sub-trains are: [[6, 5], [5, 4]] [[7, 6], [8, 7], [9, 8]]
+	 - Too many links in total
+
+Layer 6 has 48 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        9(2+7)          4(2+2)          21.6            3               0              
+1        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+2        NOTOK           True (2)        9(2+7)          6(2+4)          21.6            3               0              
+3        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+4        NOTOK           True (2)        7(4+3)          6(4+2)          21.6            3               0              
+5        NOTOK           True (2)        10(3+7)         4(2+2)          18.0            3               0              
+6        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+7        OK              True (2)        4(3+1)          8(6+2)          18.0            0               5              
+8        OK              True (1)        6               6               18.0            0               6              
+9        OK              True (2)        3(2+1)          6(4+2)          14.4            0               4              
+10       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+11       WARN            True (2)        6(4+2)          8(6+2)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0]] [[5, 0]]
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 3]] [[3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+MB 6 check results: OK
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2]] [[6, 2]]
+MB 7 check results: OK
+	 Sub-trains are: [[7, 3], [8, 3], [9, 3], [10, 3]] [[6, 3]]
+MB 8 check results: OK
+MB 9 check results: OK
+	 Sub-trains are: [[8, 5], [9, 6], [10, 7]] [[7, 4]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7]] [[6, 4]]
+MB 11 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 5], [7, 6], [8, 7], [9, 8]] [[5, 4]]
+	 - Cross-over is required
+
+Layer 7 has 51 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        10              24              21.6            3               0              
+1        OK              True (2)        4(2+2)          11(7+4)         18.0            0               5              
+2        OK              True (1)        9               21              21.6            3               0              
+3        OK              True (2)        4(2+2)          11(7+4)         14.4            0               4              
+4        OK              True (1)        7               17              21.6            3               0              
+5        OK              True (2)        4(2+2)          11(7+4)         18.0            0               5              
+6        OK              True (2)        4(1+3)          9(3+6)          14.4            0               4              
+7        OK              True (2)        6(3+3)          12(7+5)         20.4            0               6              
+8        OK              True (2)        5(2+3)          13(7+6)         18.0            0               5              
+9        OK              True (1)        10              23              18.0            3               0              
+10       OK              True (2)        4(2+2)          11(7+4)         18.0            0               5              
+11       NOTOK           True (2)        6(3+3)          16(9+7)         18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1]]
+MB 4 check results: OK
+MB 5 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 6 check results: OK
+	 Sub-trains are: [[7, 3]] [[8, 3], [9, 3], [10, 3]]
+MB 7 check results: OK
+	 Sub-trains are: [[8, 4], [9, 5], [10, 6]] [[9, 4], [10, 5], [10, 4]]
+MB 8 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 9 check results: OK
+MB 10 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 11 check results: Rules failed (details below)
+	 Sub-trains are: [[6, 5], [5, 4]] [[7, 6], [8, 7], [9, 8]]
+	 - Too many links in total
+
+Layer 8 has 48 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        9(2+7)          4(2+2)          21.6            3               0              
+1        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+2        NOTOK           True (2)        8(2+6)          6(2+4)          21.6            3               0              
+3        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+4        NOTOK           True (2)        6(4+2)          6(4+2)          21.6            3               0              
+5        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+6        NOTOK           True (2)        9(2+7)          4(2+2)          18.0            3               0              
+7        OK              True (2)        4(3+1)          6(4+2)          13.2            0               4              
+8        OK              True (1)        6               6               18.0            0               6              
+9        WARN            True (2)        5(4+1)          8(6+2)          16.8            0               5              
+10       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+11       WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0]] [[5, 0]]
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: OK
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2]] [[6, 2]]
+MB 6 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 3]] [[3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+MB 7 check results: OK
+	 Sub-trains are: [[8, 3], [9, 3], [10, 3]] [[7, 3]]
+MB 8 check results: OK
+MB 9 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 10 check results: OK
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7]] [[6, 4]]
+MB 11 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 5], [7, 6], [8, 7], [9, 8]] [[5, 4]]
+	 - Cross-over is required
+
+Layer 9 has 51 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        9               21              21.6            3               0              
+1        OK              True (2)        5(2+3)          11(6+5)         18.0            0               5              
+2        OK              True (1)        8               19              21.6            3               0              
+3        OK              True (2)        4(2+2)          9(5+4)          14.4            0               4              
+4        OK              True (2)        5(2+3)          10(5+5)         18.0            0               5              
+5        OK              True (1)        7               14              21.6            3               0              
+6        OK              True (1)        9               21              18.0            3               0              
+7        OK              True (2)        4(2+2)          8(5+3)          14.4            0               4              
+8        OK              True (2)        5(2+3)          11(6+5)         18.0            0               5              
+9        OK              True (2)        6(3+3)          11(6+5)         20.4            0               6              
+10       OK              True (2)        5(2+3)          10(5+5)         18.0            0               5              
+11       OK              True (2)        5(2+3)          13(7+6)         18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1]]
+MB 4 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 5 check results: OK
+MB 6 check results: OK
+MB 7 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 9 check results: OK
+	 Sub-trains are: [[8, 4], [9, 5], [10, 6]] [[9, 4], [10, 4], [10, 5]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 11 check results: OK
+	 Sub-trains are: [[6, 5], [5, 4]] [[7, 6], [8, 7], [9, 8]]
+
+Layer 10 has 49 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        9(2+7)          4(2+2)          21.6            3               0              
+1        NOTOK           True (2)        7(2+5)          6(2+4)          21.6            3               0              
+2        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+3        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+4        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+5        NOTOK           True (2)        6(4+2)          6(4+2)          21.6            3               0              
+6        NOTOK           True (2)        8(2+6)          4(2+2)          18.0            3               0              
+7        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+8        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+9        WARN            True (2)        5(4+1)          8(6+2)          16.8            0               5              
+10       OK              True (2)        4(3+1)          6(4+2)          13.2            0               4              
+11       OK              True (1)        6               6               18.0            0               6              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 2 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 4 check results: OK
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2]] [[6, 2]]
+MB 5 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 6 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 3]] [[3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+MB 7 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 5], [7, 6], [8, 7], [9, 8]] [[5, 4]]
+	 - Cross-over is required
+MB 8 check results: OK
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7]] [[6, 4]]
+MB 9 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 10 check results: OK
+	 Sub-trains are: [[8, 4], [9, 5], [10, 6]] [[7, 3]]
+MB 11 check results: OK
+
+Layer 11 has 51 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        9               18              21.6            3               0              
+1        OK              True (2)        5(2+3)          10(5+5)         18.0            0               5              
+2        OK              True (1)        7               15              21.6            3               0              
+3        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+4        OK              True (1)        6               11              21.6            3               0              
+5        OK              True (2)        5(2+3)          10(5+5)         18.0            0               5              
+6        OK              True (2)        4(1+3)          7(2+5)          14.4            0               4              
+7        OK              True (2)        6(3+3)          11(6+5)         20.4            0               6              
+8        OK              True (2)        5(2+3)          10(5+5)         18.0            0               5              
+9        OK              True (2)        5(2+3)          10(5+5)         18.0            0               5              
+10       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+11       OK              True (1)        10              21              25.2            4               0              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1]]
+MB 4 check results: OK
+MB 5 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 6 check results: OK
+	 Sub-trains are: [[7, 3]] [[8, 3], [9, 3], [10, 3]]
+MB 7 check results: OK
+	 Sub-trains are: [[8, 4], [9, 5], [10, 6]] [[9, 4], [10, 4], [10, 5]]
+MB 8 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 9 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8]]
+MB 11 check results: OK
+
+Layer 12 has 49 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        9(2+7)          4(2+2)          21.6            3               0              
+1        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+2        NOTOK           True (2)        7(2+5)          6(2+4)          21.6            3               0              
+3        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+4        NOTOK           True (2)        6(4+2)          6(4+2)          21.6            3               0              
+5        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+6        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+7        OK              True (1)        6               6               20.4            0               6              
+8        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+9        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+10       OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+11       NOTOK           True (2)        10(2+8)         6(2+4)          25.2            4               0              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: OK
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2]] [[6, 2]]
+MB 6 check results: OK
+	 Sub-trains are: [[8, 3], [9, 3], [10, 3]] [[7, 3]]
+MB 7 check results: OK
+MB 8 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 9 check results: OK
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7]] [[6, 4]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 6], [8, 7], [9, 8]] [[6, 5]]
+MB 11 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 4]] [[4, 3], [3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+
+Layer 13 has 51 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        9               15              21.6            3               0              
+1        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+2        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+3        OK              True (1)        7               13              21.6            3               0              
+4        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+5        OK              True (1)        6               10              21.6            3               0              
+6        OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+7        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+8        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+9        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+10       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+11       OK              True (1)        10              18              25.2            4               0              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1]]
+MB 3 check results: OK
+MB 4 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 5 check results: OK
+MB 6 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3]]
+MB 7 check results: OK
+	 Sub-trains are: [[8, 4], [9, 5], [10, 6]] [[9, 4], [10, 4], [10, 5]]
+MB 8 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 9 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8]]
+MB 11 check results: OK
+
+Layer 14 has 51 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        7(2+5)          4(2+2)          21.6            3               0              
+1        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+2        NOTOK           True (2)        7(2+5)          6(2+4)          21.6            3               0              
+3        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+4        NOTOK           True (2)        6(4+2)          6(4+2)          21.6            3               0              
+5        OK              True (2)        4(3+1)          8(6+2)          18.0            0               5              
+6        OK              True (1)        6               6               20.4            0               6              
+7        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+8        WARN            True (2)        5(4+1)          8(6+2)          16.8            0               5              
+9        OK              True (2)        4(3+1)          8(6+2)          18.0            0               5              
+10       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+11       NOTOK           True (2)        9(2+7)          6(2+4)          25.2            4               0              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: OK
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2], [10, 2]] [[6, 2]]
+MB 6 check results: OK
+MB 7 check results: OK
+	 Sub-trains are: [[8, 4], [9, 5], [10, 6]] [[7, 3]]
+MB 8 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 9 check results: OK
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7], [10, 8]] [[6, 4]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 6], [8, 7], [9, 8]] [[6, 5]]
+MB 11 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 4]] [[4, 3], [3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+
+Layer 15 has 53 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        7               13              21.6            3               0              
+1        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+2        OK              True (1)        7               10              21.6            3               0              
+3        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+4        OK              True (1)        6               8               21.6            3               0              
+5        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+6        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+7        OK              True (2)        3(2+1)          5(3+2)          14.4            0               4              
+8        OK              True (2)        3(1+2)          6(2+4)          14.4            0               4              
+9        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+10       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+11       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+12       OK              True (1)        9               14              25.2            4               0              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1]]
+MB 4 check results: OK
+MB 5 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 6 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3]]
+MB 7 check results: OK
+	 Sub-trains are: [[9, 4], [10, 5]] [[10, 4], [11, 4]]
+MB 8 check results: OK
+	 Sub-trains are: [[8, 4]] [[9, 5], [10, 6], [11, 7]]
+MB 9 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 11 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8]]
+MB 12 check results: OK
+
+Layer 16 has 51 modules and 12 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        7(2+5)          4(2+2)          21.6            3               0              
+1        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+2        NOTOK           True (2)        6(1+5)          6(2+4)          21.6            3               0              
+3        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+4        NOTOK           True (2)        6(4+2)          6(4+2)          21.6            3               0              
+5        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+6        OK              True (1)        6               6               21.6            0               6              
+7        NOTOK           True (2)        8(1+7)          6(2+4)          25.2            4               0              
+8        OK              True (1)        4               6               14.4            0               4              
+9        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+10       WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+11       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2], [10, 2]] [[6, 2]]
+	 - Cross-over is required
+MB 6 check results: OK
+MB 7 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 4]] [[4, 3], [3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+MB 8 check results: OK
+MB 9 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7], [10, 8]] [[6, 4]]
+	 - Cross-over is required
+MB 11 check results: OK
+	 Sub-trains are: [[7, 6], [8, 7], [9, 8]] [[6, 5]]
+
+Layer 17 has 53 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        7               12              21.6            3               0              
+1        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+2        OK              True (1)        6               9               21.6            3               0              
+3        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+4        OK              True (1)        6               7               21.6            3               0              
+5        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+6        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+7        OK              True (2)        3(2+1)          5(3+2)          14.4            0               4              
+8        OK              True (2)        3(1+2)          6(2+4)          14.4            0               4              
+9        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+10       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+11       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+12       OK              True (1)        8               13              25.2            4               0              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1]]
+MB 4 check results: OK
+MB 5 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 6 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3]]
+MB 7 check results: OK
+	 Sub-trains are: [[9, 4], [10, 5]] [[10, 4], [11, 4]]
+MB 8 check results: OK
+	 Sub-trains are: [[8, 4]] [[9, 5], [10, 6], [11, 7]]
+MB 9 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 11 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8]]
+MB 12 check results: OK
+
+Layer 18 has 51 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        7(2+5)          4(2+2)          21.6            3               0              
+1        NOTOK           True (2)        5(1+4)          6(2+4)          21.6            3               0              
+2        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+3        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+4        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+5        NOTOK           True (2)        4(2+2)          6(4+2)          21.6            3               0              
+6        OK              True (1)        4               6               14.4            0               4              
+7        OK              True (1)        3               2               10.8            0               3              
+8        OK              True (1)        3               4               10.8            0               3              
+9        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+10       WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+11       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+12       NOTOK           True (2)        7(1+6)          6(2+4)          25.2            4               0              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 2 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 4 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2], [10, 2]] [[6, 2]]
+	 - Cross-over is required
+MB 5 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 6 check results: OK
+MB 7 check results: OK
+MB 8 check results: OK
+MB 9 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7], [10, 8]] [[6, 4]]
+	 - Cross-over is required
+MB 11 check results: OK
+	 Sub-trains are: [[7, 6], [8, 7], [9, 8]] [[6, 5]]
+MB 12 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 4]] [[4, 3], [3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+
+Layer 19 has 54 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        7               10              21.6            3               0              
+1        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+2        OK              True (1)        5               9               21.6            3               0              
+3        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+4        OK              True (1)        4               7               21.6            3               0              
+5        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+6        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+7        OK              True (2)        3(2+1)          5(3+2)          14.4            0               4              
+8        OK              True (2)        3(1+2)          6(2+4)          14.4            0               4              
+9        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+10       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+11       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+12       OK              True (1)        7               13              25.2            4               0              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 4 check results: OK
+MB 5 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 6 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3]]
+MB 7 check results: OK
+	 Sub-trains are: [[9, 4], [10, 5]] [[10, 4], [11, 4]]
+MB 8 check results: OK
+	 Sub-trains are: [[8, 4]] [[9, 5], [10, 6], [11, 7]]
+MB 9 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 11 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8]]
+MB 12 check results: OK
+
+Layer 20 has 51 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        7(2+5)          4(2+2)          21.6            3               0              
+1        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+2        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+3        NOTOK           True (2)        5(1+4)          6(2+4)          21.6            3               0              
+4        NOTOK           True (2)        4(2+2)          6(4+2)          21.6            3               0              
+5        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+6        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+7        OK              True (1)        3               4               10.8            0               3              
+8        OK              True (1)        3               6               10.8            0               3              
+9        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+10       WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+11       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+12       NOTOK           True (2)        7(1+6)          6(2+4)          25.2            4               0              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 2 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 3 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2], [10, 2]] [[6, 2]]
+	 - Cross-over is required
+MB 6 check results: OK
+	 Sub-trains are: [[8, 3], [9, 3], [10, 3]] [[7, 3]]
+MB 7 check results: OK
+MB 8 check results: OK
+MB 9 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7], [10, 8]] [[6, 4]]
+	 - Cross-over is required
+MB 11 check results: OK
+	 Sub-trains are: [[7, 6], [8, 7], [9, 8]] [[6, 5]]
+MB 12 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 4]] [[4, 3], [3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+
+Layer 21 has 55 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        7               10              21.6            3               0              
+1        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+2        OK              True (1)        5               8               21.6            3               0              
+3        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+4        OK              True (1)        4               7               21.6            3               0              
+5        OK              True (1)        7               12              25.2            4               0              
+6        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+7        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+8        OK              True (2)        3(2+1)          5(3+2)          14.4            0               4              
+9        OK              True (2)        3(2+1)          6(4+2)          14.4            0               4              
+10       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+11       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+12       OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 4 check results: OK
+MB 5 check results: OK
+MB 6 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 7 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[9, 4], [10, 5]] [[10, 4], [11, 4]]
+MB 9 check results: OK
+	 Sub-trains are: [[9, 5], [8, 4]] [[10, 6], [11, 7]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 11 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 12 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8], [10, 9]]
+
+Layer 22 has 51 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        7(2+5)          4(2+2)          21.6            3               0              
+1        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+2        NOTOK           True (2)        5(1+4)          6(2+4)          21.6            3               0              
+3        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+4        NOTOK           True (2)        4(2+2)          6(4+2)          21.6            3               0              
+5        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+6        OK              True (2)        4(3+1)          6(4+2)          14.4            0               4              
+7        OK              True (1)        3               4               10.8            0               3              
+8        OK              True (1)        3               6               10.8            0               3              
+9        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+10       WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+11       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+12       NOTOK           True (2)        7(1+6)          6(2+4)          25.2            4               0              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1]] [[6, 1]]
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2], [10, 2]] [[6, 2]]
+	 - Cross-over is required
+MB 6 check results: OK
+	 Sub-trains are: [[8, 3], [9, 3], [10, 3]] [[7, 3]]
+MB 7 check results: OK
+MB 8 check results: OK
+MB 9 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7], [10, 8]] [[6, 4]]
+	 - Cross-over is required
+MB 11 check results: OK
+	 Sub-trains are: [[7, 6], [8, 7], [9, 8]] [[6, 5]]
+MB 12 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 4]] [[4, 3], [3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+
+Layer 23 has 55 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        7               9               21.6            3               0              
+1        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+2        OK              True (1)        5               7               21.6            3               0              
+3        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+4        OK              True (1)        4               6               21.6            3               0              
+5        OK              True (1)        7               10              25.2            4               0              
+6        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+7        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+8        OK              True (2)        3(2+1)          5(3+2)          14.4            0               4              
+9        OK              True (2)        3(1+2)          6(2+4)          14.4            0               4              
+10       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+11       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+12       OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 4 check results: OK
+MB 5 check results: OK
+MB 6 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 7 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[9, 4], [10, 5]] [[10, 4], [11, 4]]
+MB 9 check results: OK
+	 Sub-trains are: [[8, 4]] [[9, 5], [10, 6], [11, 7]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 11 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 12 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8], [10, 9]]
+
+Layer 24 has 54 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        6(1+5)          4(2+2)          21.6            3               0              
+1        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+2        NOTOK           True (2)        5(1+4)          6(2+4)          21.6            3               0              
+3        OK              True (2)        4(3+1)          8(6+2)          18.0            0               5              
+4        NOTOK           True (2)        4(2+2)          6(4+2)          21.6            3               0              
+5        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+6        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+7        OK              True (1)        3               4               14.4            0               4              
+8        OK              True (2)        3(2+1)          6(4+2)          14.4            0               4              
+9        WARN            True (2)        5(4+1)          10(8+2)         18.0            0               5              
+10       WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+11       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+12       NOTOK           True (2)        7(1+6)          6(2+4)          25.2            4               0              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1], [10, 1]] [[6, 1]]
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2], [10, 2]] [[6, 2]]
+	 - Cross-over is required
+MB 6 check results: OK
+	 Sub-trains are: [[8, 3], [9, 3], [10, 3]] [[7, 3]]
+MB 7 check results: OK
+MB 8 check results: OK
+	 Sub-trains are: [[9, 5], [10, 6], [11, 7]] [[8, 4]]
+MB 9 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7], [10, 8]] [[6, 4]]
+	 - Cross-over is required
+MB 11 check results: OK
+	 Sub-trains are: [[7, 6], [8, 7], [9, 8]] [[6, 5]]
+MB 12 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 4]] [[4, 3], [3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+
+Layer 25 has 59 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        6               9               21.6            3               0              
+1        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+2        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+3        OK              True (1)        5               7               21.6            3               0              
+4        OK              True (1)        4               6               21.6            3               0              
+5        OK              True (1)        7               10              25.2            4               0              
+6        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+7        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+8        OK              True (2)        4(2+2)          7(4+3)          13.2            0               4              
+9        NOTOK           True (2)        4(4+0)          7(7+0)          20.4            0               6              
+10       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+11       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+12       OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 3 check results: OK
+MB 4 check results: OK
+MB 5 check results: OK
+MB 6 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 7 check results: OK
+	 Sub-trains are: [[7, 3]] [[8, 3], [9, 3], [10, 3], [11, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[9, 5], [8, 4]] [[10, 6], [11, 7]]
+MB 9 check results: Rules failed (details below)
+	 Sub-trains are: [[10, 5], [9, 4], [10, 4], [11, 5], [11, 4]] [[11, 6]]
+	 - Cross-over is required
+	 - Shape is not allowed
+MB 10 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7], [11, 8]]
+MB 11 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 12 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8], [10, 9]]
+
+Layer 26 has 57 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        6(1+5)          4(2+2)          21.6            3               0              
+1        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+2        NOTOK           True (2)        5(1+4)          6(2+4)          21.6            3               0              
+3        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+4        NOTOK           True (2)        4(2+2)          6(4+2)          21.6            3               0              
+5        NOTOK           True (2)        7(1+6)          6(2+4)          25.2            4               0              
+6        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+7        OK              True (2)        4(3+1)          8(6+2)          18.0            0               5              
+8        OK              True (1)        3               6               18.0            0               5              
+9        OK              True (2)        3(2+1)          6(4+2)          14.4            0               4              
+10       WARN            True (2)        5(4+1)          10(8+2)         18.0            0               5              
+11       WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+12       OK              True (2)        4(3+1)          8(6+2)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1], [10, 1]] [[6, 1]]
+	 - Cross-over is required
+MB 4 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 5 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 4]] [[4, 3], [3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+MB 6 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2], [10, 2]] [[6, 2]]
+	 - Cross-over is required
+MB 7 check results: OK
+	 Sub-trains are: [[8, 3], [9, 3], [10, 3], [11, 4]] [[7, 3]]
+MB 8 check results: OK
+MB 9 check results: OK
+	 Sub-trains are: [[9, 5], [10, 6], [11, 7]] [[8, 4]]
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 11 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7], [10, 8]] [[6, 4]]
+	 - Cross-over is required
+MB 12 check results: OK
+	 Sub-trains are: [[7, 6], [8, 7], [9, 8], [10, 9]] [[6, 5]]
+
+Layer 27 has 59 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        5               8               21.6            3               0              
+1        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+2        OK              True (1)        5               7               21.6            3               0              
+3        OK              True (1)        4               6               21.6            3               0              
+4        OK              True (1)        6               10              25.2            4               0              
+5        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+6        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+7        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+8        OK              True (2)        4(2+2)          7(4+3)          20.4            0               6              
+9        OK              True (2)        4(2+2)          7(4+3)          13.2            0               4              
+10       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+11       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+12       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+MB 4 check results: OK
+MB 5 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 6 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2]]
+MB 7 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3], [11, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[9, 4], [10, 5], [11, 6]] [[10, 4], [11, 4], [11, 5]]
+MB 9 check results: OK
+	 Sub-trains are: [[9, 5], [8, 4]] [[10, 6], [11, 7]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7], [11, 8]]
+MB 11 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 12 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8], [10, 9]]
+
+Layer 28 has 57 modules and 13 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        NOTOK           True (2)        5(1+4)          4(2+2)          21.6            3               0              
+1        WARN            True (2)        5(4+1)          10(8+2)         18.0            0               5              
+2        NOTOK           True (2)        5(1+4)          6(2+4)          21.6            3               0              
+3        NOTOK           True (2)        4(2+2)          6(4+2)          21.6            3               0              
+4        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+5        WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+6        OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+7        OK              True (1)        4               6               20.4            0               6              
+8        OK              True (2)        4(3+1)          6(4+2)          13.2            0               4              
+9        WARN            True (2)        5(4+1)          10(8+2)         18.0            0               5              
+10       WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+11       WARN            True (2)        5(4+1)          8(6+2)          18.0            0               5              
+12       NOTOK           True (2)        6(1+5)          6(2+4)          25.2            4               0              
+==============================================================================================================
+MB 0 check results: Rules failed (details below)
+	 Sub-trains are: [[4, 0]] [[3, 0], [2, 0]]
+	 - engine is not at the boundary with LD
+MB 1 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 0], [7, 0], [8, 0], [9, 0]] [[5, 0]]
+	 - Cross-over is required
+MB 2 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 1]] [[4, 1], [3, 1]]
+	 - engine is not at the boundary with LD
+MB 3 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 3], [5, 2]] [[4, 2]]
+	 - engine is not at the boundary with LD
+MB 4 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 1], [8, 1], [9, 1], [10, 1]] [[6, 1]]
+	 - Cross-over is required
+MB 5 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 2], [8, 2], [9, 2], [10, 2]] [[6, 2]]
+	 - Cross-over is required
+MB 6 check results: OK
+	 Sub-trains are: [[8, 3], [9, 3], [10, 3]] [[7, 3]]
+MB 7 check results: OK
+MB 8 check results: OK
+	 Sub-trains are: [[9, 5], [10, 6], [11, 7]] [[8, 4]]
+MB 9 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 4], [8, 5], [9, 6], [10, 7]] [[6, 3]]
+	 - Cross-over is required
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 5], [8, 6], [9, 7], [10, 8]] [[6, 4]]
+	 - Cross-over is required
+MB 11 check results: Some warnings found (details below)
+	 Sub-trains are: [[7, 6], [8, 7], [9, 8], [10, 9]] [[6, 5]]
+	 - Cross-over is required
+MB 12 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 4]] [[4, 3], [3, 2], [2, 1]]
+	 - engine is not at the boundary with LD
+
+Layer 29 has 115 modules and 24 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        5               6               21.6            3               0              
+1        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+2        OK              True (1)        4               6               21.6            3               0              
+3        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+4        OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+5        OK              True (2)        6(3+3)          11(6+5)         25.2            0               7              
+6        OK              True (2)        4(1+3)          7(2+5)          18.0            0               5              
+7        OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+8        OK              True (1)        5               6               21.6            3               0              
+9        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+10       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+11       OK              True (1)        5               7               21.6            3               0              
+12       OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+13       OK              True (1)        5               7               21.6            3               0              
+14       OK              True (1)        4               6               21.6            3               0              
+15       OK              True (1)        5               7               21.6            3               0              
+16       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+17       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+18       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+19       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+20       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+21       OK              True (2)        3(1+2)          6(2+4)          14.4            0               4              
+22       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+23       OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0]]
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1], [5, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 4 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2], [5, 2]] [[8, 2], [9, 2], [10, 2], [11, 3]]
+MB 5 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3], [9, 4]] [[9, 3], [10, 3], [10, 4], [11, 4]]
+MB 6 check results: OK
+	 Sub-trains are: [[8, 4]] [[9, 5], [10, 5], [10, 6], [11, 6]]
+MB 7 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7], [11, 7]]
+MB 8 check results: OK
+MB 9 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4], [5, 3]] [[8, 6], [9, 7], [10, 8]]
+MB 10 check results: OK
+	 Sub-trains are: [[6, 5], [5, 4]] [[7, 6], [8, 7], [9, 8]]
+MB 11 check results: OK
+MB 12 check results: OK
+	 Sub-trains are: [[6, 6], [5, 5]] [[7, 7], [8, 8], [9, 9]]
+MB 13 check results: OK
+MB 14 check results: OK
+MB 15 check results: OK
+MB 16 check results: OK
+	 Sub-trains are: [[5, 6], [4, 5]] [[6, 7], [7, 8], [8, 9]]
+MB 17 check results: OK
+	 Sub-trains are: [[5, 7], [4, 6], [3, 5]] [[6, 8], [7, 9], [8, 10]]
+MB 18 check results: OK
+	 Sub-trains are: [[4, 7], [3, 6]] [[5, 8], [6, 9], [7, 10]]
+MB 19 check results: OK
+	 Sub-trains are: [[2, 7], [2, 6], [2, 5]] [[2, 8], [2, 9], [2, 10]]
+MB 20 check results: OK
+	 Sub-trains are: [[3, 8], [3, 7], [4, 9]] [[3, 9], [4, 10], [3, 10]]
+MB 21 check results: OK
+	 Sub-trains are: [[4, 8]] [[5, 9], [5, 10], [6, 10]]
+MB 22 check results: OK
+	 Sub-trains are: [[1, 6], [1, 5]] [[1, 7], [1, 8], [1, 9]]
+MB 23 check results: OK
+	 Sub-trains are: [[0, 6], [0, 5]] [[0, 7], [0, 8], [0, 9]]
+
+Layer 30 has 119 modules and 24 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+1        OK              True (1)        5               6               21.6            3               0              
+2        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+3        OK              True (1)        4               6               21.6            3               0              
+4        OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+5        OK              True (2)        5(3+2)          9(6+3)          20.4            0               6              
+6        OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+7        WARN            True (2)        6(4+2)          11(8+3)         24.0            0               7              
+8        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+9        OK              True (1)        5               6               21.6            3               0              
+10       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+11       OK              True (1)        5               6               21.6            3               0              
+12       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+13       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+14       OK              True (1)        4               6               21.6            3               0              
+15       OK              True (1)        5               6               21.6            3               0              
+16       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+18       OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+19       OK              True (2)        4(3+1)          7(5+2)          16.8            0               5              
+20       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+21       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+22       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+23       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+24       OK              True (1)        5               6               21.6            3               0              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[1, 7], [1, 6]] [[1, 8], [1, 9], [1, 10]]
+MB 1 check results: OK
+MB 2 check results: OK
+	 Sub-trains are: [[2, 8], [2, 7], [2, 6]] [[2, 9], [2, 10], [2, 11]]
+MB 3 check results: OK
+MB 4 check results: OK
+	 Sub-trains are: [[3, 8], [3, 7], [3, 6]] [[3, 9], [3, 10], [3, 11]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 10], [4, 9], [5, 11]] [[4, 11], [5, 12], [4, 12]]
+MB 6 check results: OK
+	 Sub-trains are: [[5, 8], [4, 7], [4, 8]] [[6, 9], [7, 10], [8, 11]]
+MB 7 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 10], [5, 9], [5, 10], [6, 11]] [[7, 11], [8, 12], [7, 12]]
+	 - Cross-over is required
+MB 8 check results: OK
+	 Sub-trains are: [[6, 8], [5, 7], [4, 6]] [[7, 9], [8, 10], [9, 11]]
+MB 9 check results: OK
+MB 10 check results: OK
+	 Sub-trains are: [[6, 7], [5, 6]] [[7, 8], [8, 9], [9, 10]]
+MB 11 check results: OK
+MB 12 check results: OK
+	 Sub-trains are: [[7, 7], [6, 6]] [[8, 8], [9, 9], [10, 10]]
+MB 13 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8], [10, 9], [11, 10]]
+MB 14 check results: OK
+MB 15 check results: OK
+MB 16 check results: OK
+	 Sub-trains are: [[8, 6], [7, 5], [6, 4]] [[9, 7], [10, 8], [11, 9]]
+MB 18 check results: OK
+	 Sub-trains are: [[9, 6], [8, 5], [10, 6]] [[10, 7], [11, 8], [11, 7], [12, 8]]
+MB 19 check results: OK
+	 Sub-trains are: [[10, 5], [9, 5], [11, 6]] [[11, 5], [12, 5]]
+MB 20 check results: OK
+	 Sub-trains are: [[8, 4], [7, 4]] [[9, 4], [10, 4], [11, 4]]
+MB 21 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3], [6, 3]] [[9, 3], [10, 3], [11, 3]]
+MB 22 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2], [9, 2], [10, 2], [11, 2]]
+MB 23 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 24 check results: OK
+
+Layer 31 has 123 modules and 25 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+1        OK              True (1)        4               6               21.6            3               0              
+2        OK              True (1)        4               6               21.6            3               0              
+3        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+4        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+5        OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+6        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+7        OK              True (2)        4(3+1)          7(5+2)          16.8            0               5              
+8        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+9        OK              True (1)        5               6               21.6            3               0              
+10       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+11       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+12       OK              True (1)        4               6               21.6            3               0              
+13       OK              True (1)        5               6               21.6            3               0              
+14       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+15       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+16       OK              True (1)        4               6               21.6            3               0              
+17       OK              True (1)        5               6               21.6            3               0              
+19       OK              True (2)        5(3+2)          10(6+4)         21.6            0               6              
+20       OK              True (2)        6(3+3)          10(6+4)         19.2            0               6              
+21       OK              True (1)        3               5               9.6             0               3              
+22       OK              True (2)        5(2+3)          9(4+5)          16.8            0               5              
+23       OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+24       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+25       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[0, 6], [0, 5]] [[0, 7], [0, 8], [0, 9]]
+MB 1 check results: OK
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[1, 7], [1, 6], [1, 5]] [[1, 8], [1, 9], [1, 10]]
+MB 4 check results: OK
+	 Sub-trains are: [[2, 7], [2, 6], [2, 5]] [[2, 8], [2, 9], [2, 10]]
+MB 5 check results: OK
+	 Sub-trains are: [[3, 8], [3, 7], [4, 9]] [[3, 9], [3, 10], [4, 10], [4, 11]]
+MB 6 check results: OK
+	 Sub-trains are: [[4, 7], [3, 6]] [[5, 8], [6, 9], [7, 10]]
+MB 7 check results: OK
+	 Sub-trains are: [[5, 9], [4, 8], [5, 10]] [[6, 10], [7, 11]]
+MB 8 check results: OK
+	 Sub-trains are: [[5, 7], [4, 6], [3, 5]] [[6, 8], [7, 9], [8, 10]]
+MB 9 check results: OK
+MB 10 check results: OK
+	 Sub-trains are: [[6, 7], [5, 6], [4, 5]] [[7, 8], [8, 9], [9, 10]]
+MB 11 check results: OK
+	 Sub-trains are: [[6, 6], [5, 5]] [[7, 7], [8, 8], [9, 9]]
+MB 12 check results: OK
+MB 13 check results: OK
+MB 14 check results: OK
+	 Sub-trains are: [[6, 5], [5, 4]] [[7, 6], [8, 7], [9, 8], [10, 9]]
+MB 15 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4], [5, 3]] [[8, 6], [9, 7], [10, 8]]
+MB 16 check results: OK
+MB 17 check results: OK
+MB 19 check results: OK
+	 Sub-trains are: [[8, 5], [7, 4], [6, 3]] [[9, 6], [10, 7], [11, 8]]
+MB 20 check results: OK
+	 Sub-trains are: [[9, 5], [8, 4], [10, 5]] [[10, 6], [11, 6], [11, 7]]
+MB 21 check results: OK
+MB 22 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3], [11, 3]]
+MB 23 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2], [5, 2]] [[8, 2], [9, 2], [10, 2], [11, 2]]
+MB 24 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1], [5, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 25 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0], [10, 0]]
+
+Layer 32 has 125 modules and 25 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+1        OK              True (1)        4               6               21.6            3               0              
+2        OK              True (1)        4               6               21.6            3               0              
+3        OK              True (1)        4               6               21.6            3               0              
+4        OK              True (1)        4               6               21.6            3               0              
+5        OK              True (1)        4               6               21.6            3               0              
+6        OK              True (1)        5               6               21.6            3               0              
+7        OK              True (1)        4               6               21.6            3               0              
+8        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+9        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+10       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+11       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+12       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+13       OK              True (2)        6(3+3)          12(6+6)         28.8            0               8              
+14       OK              True (2)        4(1+3)          7(2+5)          16.8            0               5              
+15       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+16       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+17       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+18       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+19       OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+20       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+21       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+22       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+23       OK              True (2)        6(3+3)          10(6+4)         21.6            0               6              
+24       OK              True (2)        3(1+2)          5(2+3)          10.8            0               3              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[1, 7], [1, 6]] [[1, 8], [1, 9], [1, 10], [1, 11]]
+MB 1 check results: OK
+MB 2 check results: OK
+MB 3 check results: OK
+MB 4 check results: OK
+MB 5 check results: OK
+MB 6 check results: OK
+MB 7 check results: OK
+MB 8 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 9 check results: OK
+	 Sub-trains are: [[8, 2], [7, 2], [6, 2]] [[9, 2], [10, 2], [11, 2]]
+MB 10 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3], [6, 3]] [[9, 3], [10, 3], [11, 3]]
+MB 11 check results: OK
+	 Sub-trains are: [[8, 4], [7, 4]] [[9, 4], [10, 4], [11, 4], [12, 4]]
+MB 12 check results: OK
+	 Sub-trains are: [[8, 6], [7, 5], [6, 4]] [[9, 7], [10, 8], [11, 9]]
+MB 13 check results: OK
+	 Sub-trains are: [[9, 6], [8, 5], [10, 6]] [[10, 7], [11, 8], [11, 7], [12, 9], [12, 8]]
+MB 14 check results: OK
+	 Sub-trains are: [[9, 5]] [[10, 5], [11, 6], [11, 5], [12, 5]]
+MB 15 check results: OK
+	 Sub-trains are: [[8, 7], [7, 6], [6, 5]] [[9, 8], [10, 9], [11, 10]]
+MB 16 check results: OK
+	 Sub-trains are: [[7, 7], [6, 6]] [[8, 8], [9, 9], [10, 10]]
+MB 17 check results: OK
+	 Sub-trains are: [[6, 7], [5, 6]] [[7, 8], [8, 9], [9, 10], [10, 11]]
+MB 18 check results: OK
+	 Sub-trains are: [[6, 8], [5, 7], [4, 6]] [[7, 9], [8, 10], [9, 11]]
+MB 19 check results: OK
+	 Sub-trains are: [[5, 8], [4, 7], [3, 6]] [[6, 9], [7, 10], [8, 11], [9, 12]]
+MB 20 check results: OK
+	 Sub-trains are: [[3, 8], [3, 7]] [[3, 9], [3, 10], [3, 11], [3, 12]]
+MB 21 check results: OK
+	 Sub-trains are: [[2, 8], [2, 7], [2, 6]] [[2, 9], [2, 10], [2, 11]]
+MB 22 check results: OK
+	 Sub-trains are: [[5, 9], [4, 8]] [[6, 10], [7, 11], [8, 12]]
+MB 23 check results: OK
+	 Sub-trains are: [[4, 10], [4, 9], [5, 11]] [[4, 11], [5, 12], [4, 12]]
+MB 24 check results: OK
+	 Sub-trains are: [[5, 10]] [[6, 11], [7, 12]]
+
+Layer 33 has 125 modules and 25 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+1        OK              True (1)        4               6               21.6            3               0              
+2        OK              True (1)        3               6               21.6            3               0              
+3        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+4        OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+5        WARN            True (2)        6(4+2)          11(8+3)         24.0            0               7              
+6        OK              True (2)        5(3+2)          8(5+3)          15.6            0               5              
+7        OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+8        OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+9        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+10       OK              True (1)        4               6               21.6            3               0              
+11       OK              True (1)        4               6               21.6            3               0              
+12       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+13       OK              True (1)        4               6               21.6            3               0              
+14       OK              True (1)        4               6               21.6            3               0              
+15       OK              True (1)        4               6               21.6            3               0              
+16       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+18       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+19       OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+20       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+21       OK              True (1)        3               5               10.8            0               3              
+22       OK              True (2)        6(3+3)          10(6+4)         21.6            0               6              
+23       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+24       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+25       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[0, 6], [0, 5]] [[0, 7], [0, 8], [0, 9]]
+MB 1 check results: OK
+MB 2 check results: OK
+MB 3 check results: OK
+	 Sub-trains are: [[1, 7], [1, 6], [1, 5]] [[1, 8], [1, 9], [1, 10]]
+MB 4 check results: OK
+	 Sub-trains are: [[2, 7], [2, 6], [2, 5]] [[2, 8], [2, 9], [2, 10]]
+MB 5 check results: Some warnings found (details below)
+	 Sub-trains are: [[3, 9], [3, 8], [4, 9], [4, 10]] [[3, 10], [3, 11], [4, 11]]
+	 - Cross-over is required
+MB 6 check results: OK
+	 Sub-trains are: [[5, 9], [4, 8], [5, 10]] [[6, 10], [7, 11]]
+MB 7 check results: OK
+	 Sub-trains are: [[4, 7], [3, 6], [3, 7]] [[5, 8], [6, 9], [7, 10], [8, 11]]
+MB 8 check results: OK
+	 Sub-trains are: [[5, 7], [4, 6], [3, 5]] [[6, 8], [7, 9], [8, 10]]
+MB 9 check results: OK
+	 Sub-trains are: [[6, 7], [5, 6], [4, 5]] [[7, 8], [8, 9], [9, 10]]
+MB 10 check results: OK
+MB 11 check results: OK
+MB 12 check results: OK
+	 Sub-trains are: [[6, 6], [5, 5]] [[7, 7], [8, 8], [9, 9]]
+MB 13 check results: OK
+MB 14 check results: OK
+MB 15 check results: OK
+MB 16 check results: OK
+	 Sub-trains are: [[6, 0], [5, 0]] [[7, 0], [8, 0], [9, 0], [10, 0]]
+MB 18 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1], [5, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 19 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2], [5, 2]] [[8, 2], [9, 2], [10, 2], [11, 2]]
+MB 20 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3]] [[9, 3], [10, 3], [11, 3]]
+MB 21 check results: OK
+MB 22 check results: OK
+	 Sub-trains are: [[9, 5], [8, 4], [10, 5]] [[10, 6], [11, 6], [11, 7]]
+MB 23 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7], [11, 8]]
+MB 24 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4], [5, 3]] [[8, 6], [9, 7], [10, 8]]
+MB 25 check results: OK
+	 Sub-trains are: [[6, 5], [5, 4]] [[7, 6], [8, 7], [9, 8], [10, 9]]
+
+Layer 34 has 134 modules and 29 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        4               6               21.6            3               0              
+1        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+2        OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+3        OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+4        OK              True (2)        6(3+3)          11(6+5)         20.4            0               6              
+5        OK              True (2)        6(3+3)          10(6+4)         21.6            0               6              
+6        OK              True (1)        4               6               21.6            3               0              
+7        OK              True (1)        3               6               21.6            3               0              
+8        OK              True (1)        4               6               21.6            3               0              
+9        OK              True (1)        3               6               21.6            3               0              
+10       OK              True (1)        4               6               21.6            3               0              
+11       OK              True (1)        3               5               21.6            3               0              
+12       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+13       OK              True (2)        4(2+2)          6(4+2)          14.4            0               4              
+14       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+15       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+16       OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+17       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+18       OK              True (2)        4(3+1)          7(5+2)          16.8            0               5              
+19       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+20       OK              True (2)        4(2+2)          6(4+2)          14.4            0               4              
+21       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+22       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+23       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+24       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+25       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+27       OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+28       OK              True (2)        5(2+3)          8(4+4)          16.8            0               5              
+29       OK              True (2)        4(1+3)          4(2+2)          14.4            0               4              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1]] [[8, 1], [9, 1], [10, 1]]
+MB 2 check results: OK
+	 Sub-trains are: [[8, 2], [7, 2], [6, 2]] [[9, 2], [10, 2], [11, 2]]
+MB 3 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3], [6, 3]] [[9, 3], [10, 3], [11, 3], [12, 3]]
+MB 4 check results: OK
+	 Sub-trains are: [[9, 4], [8, 4], [7, 4]] [[10, 4], [11, 4], [12, 4]]
+MB 5 check results: OK
+	 Sub-trains are: [[10, 5], [9, 5], [11, 6]] [[11, 5], [12, 6], [12, 5]]
+MB 6 check results: OK
+MB 7 check results: OK
+MB 8 check results: OK
+MB 9 check results: OK
+MB 10 check results: OK
+MB 11 check results: OK
+MB 12 check results: OK
+	 Sub-trains are: [[1, 8], [1, 7], [1, 6]] [[1, 9], [1, 10], [1, 11]]
+MB 13 check results: OK
+	 Sub-trains are: [[2, 10], [2, 9]] [[2, 11], [2, 12]]
+MB 14 check results: OK
+	 Sub-trains are: [[2, 6]] [[2, 7], [2, 8]]
+MB 15 check results: OK
+	 Sub-trains are: [[3, 9], [3, 8], [3, 7]] [[3, 10], [3, 11], [3, 12]]
+MB 16 check results: OK
+	 Sub-trains are: [[4, 10], [4, 9], [5, 11]] [[4, 11], [5, 12], [4, 12], [5, 13]]
+MB 17 check results: OK
+	 Sub-trains are: [[5, 9], [4, 8]] [[6, 10], [7, 11], [8, 12]]
+MB 18 check results: OK
+	 Sub-trains are: [[6, 11], [5, 10], [6, 12]] [[7, 12], [8, 13]]
+MB 19 check results: OK
+	 Sub-trains are: [[7, 10], [6, 9]] [[8, 11], [9, 12]]
+MB 20 check results: OK
+	 Sub-trains are: [[8, 10], [7, 9]] [[9, 11], [10, 12]]
+MB 21 check results: OK
+	 Sub-trains are: [[3, 6]] [[4, 7], [5, 8]]
+MB 22 check results: OK
+	 Sub-trains are: [[4, 6]] [[5, 7], [6, 8]]
+MB 23 check results: OK
+	 Sub-trains are: [[7, 8], [6, 7], [5, 6]] [[8, 9], [9, 10], [10, 11]]
+MB 24 check results: OK
+	 Sub-trains are: [[7, 7], [6, 6]] [[8, 8], [9, 9], [10, 10]]
+MB 25 check results: OK
+	 Sub-trains are: [[8, 7], [7, 6], [6, 5]] [[9, 8], [10, 9], [11, 10]]
+MB 27 check results: OK
+	 Sub-trains are: [[8, 6], [7, 5], [6, 4]] [[9, 7], [10, 8], [11, 9], [12, 10]]
+MB 28 check results: OK
+	 Sub-trains are: [[9, 6], [8, 5]] [[10, 7], [11, 8], [12, 9]]
+MB 29 check results: OK
+	 Sub-trains are: [[10, 6]] [[11, 7], [12, 7], [12, 8]]
+
+Layer 35 has 150 modules and 34 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (1)        3               5               21.6            3               0              
+1        OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+3        OK              True (1)        3               5               21.6            3               0              
+4        NOTOK           True (1)        4               6               18.0            2               1              
+5        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+6        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+7        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+8        OK              True (1)        4               6               21.6            3               0              
+9        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+10       WARN            True (2)        5(1+4)          8(2+6)          21.6            0               6              
+11       OK              True (2)        3(1+2)          4(2+2)          14.4            0               4              
+12       OK              True (2)        -995(2+-997)    8(4+4)          18.0            0               5              
+13       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+14       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+15       OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+16       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+17       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+18       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+19       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+20       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+21       WARN            True (2)        6(4+2)          10(7+3)         24.0            0               7              
+22       WARN            True (2)        6(4+2)          10(7+3)         24.0            0               7              
+23       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+24       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+25       OK              True (2)        3(2+1)          6(4+2)          10.8            0               3              
+26       OK              True (1)        4               6               21.6            3               0              
+27       OK              True (1)        4               6               21.6            3               0              
+28       OK              True (1)        3               6               21.6            3               0              
+29       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+30       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+31       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+32       OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+33       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+34       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+==============================================================================================================
+MB 0 check results: OK
+MB 1 check results: OK
+	 Sub-trains are: [[7, 0], [6, 0], [5, 0]] [[8, 0], [9, 0], [10, 0], [11, 0]]
+MB 3 check results: OK
+MB 4 check results: Rules failed (details below)
+	 - Mixes modules types
+MB 5 check results: OK
+	 Sub-trains are: [[9, 2], [8, 2]] [[10, 2], [11, 2], [12, 2]]
+MB 6 check results: OK
+	 Sub-trains are: [[9, 1], [8, 1]] [[10, 1], [11, 1]]
+MB 7 check results: OK
+	 Sub-trains are: [[5, 3]] [[6, 4], [7, 5]]
+MB 8 check results: OK
+MB 9 check results: OK
+	 Sub-trains are: [[9, 3], [8, 3], [7, 3]] [[10, 3], [11, 3], [12, 3]]
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[9, 4]] [[10, 4], [11, 4], [11, 5], [12, 4], [12, 5]]
+	 - Cross-over is required
+	 - Requires flip shape to be allowed
+MB 11 check results: OK
+	 Sub-trains are: [[10, 5]] [[11, 6], [12, 6], [12, 7]]
+MB 12 check results: OK
+	 Sub-trains are: [[9, 5], [8, 4]] [[10, 6], [11, 7], [12, 8]]
+MB 13 check results: OK
+	 Sub-trains are: [[1, 9], [1, 8]] [[1, 10], [1, 11]]
+MB 14 check results: OK
+	 Sub-trains are: [[9, 7], [8, 6]] [[10, 8], [11, 9]]
+MB 15 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5], [5, 4]] [[8, 7], [9, 8], [10, 9], [11, 10]]
+MB 16 check results: OK
+	 Sub-trains are: [[7, 7], [6, 6], [5, 5]] [[8, 8], [9, 9], [10, 10]]
+MB 17 check results: OK
+	 Sub-trains are: [[4, 5]] [[5, 6], [6, 7]]
+MB 18 check results: OK
+	 Sub-trains are: [[8, 9], [7, 8]] [[9, 10], [10, 11]]
+MB 19 check results: OK
+	 Sub-trains are: [[7, 9], [6, 8]] [[8, 10], [9, 11]]
+MB 20 check results: OK
+	 Sub-trains are: [[6, 9], [5, 8]] [[7, 10], [8, 11]]
+MB 21 check results: Some warnings found (details below)
+	 Sub-trains are: [[6, 10], [5, 9], [5, 10], [6, 11]] [[7, 11], [7, 12], [8, 12]]
+	 - Cross-over is required
+MB 22 check results: Some warnings found (details below)
+	 Sub-trains are: [[4, 10], [4, 9], [5, 11], [4, 8]] [[4, 11], [4, 12], [5, 12]]
+	 - Cross-over is required
+MB 23 check results: OK
+	 Sub-trains are: [[3, 8], [3, 7]] [[3, 9], [3, 10], [3, 11]]
+MB 24 check results: OK
+	 Sub-trains are: [[2, 8], [2, 7], [2, 6]] [[2, 9], [2, 10], [2, 11]]
+MB 25 check results: OK
+	 Sub-trains are: [[3, 6], [2, 5]] [[4, 7]]
+MB 26 check results: OK
+MB 27 check results: OK
+MB 28 check results: OK
+MB 29 check results: OK
+	 Sub-trains are: [[0, 7], [0, 6], [0, 5]] [[0, 8], [0, 9], [0, 10]]
+MB 30 check results: OK
+	 Sub-trains are: [[1, 5]] [[1, 6], [1, 7]]
+MB 31 check results: OK
+	 Sub-trains are: [[3, 5]] [[4, 6], [5, 7]]
+MB 32 check results: OK
+	 Sub-trains are: [[8, 5], [7, 4], [6, 3]] [[9, 6], [10, 7], [11, 8], [12, 9]]
+MB 33 check results: OK
+	 Sub-trains are: [[5, 1]] [[6, 1], [7, 1]]
+MB 34 check results: OK
+	 Sub-trains are: [[5, 2]] [[6, 2], [7, 2]]
+
+Layer 36 has 160 modules and 36 MBs
+1 modules need to be assigned a MB (e.g. [(5, 14)])
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+1        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+2        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+3        OK              True (2)        3(2+1)          6(4+2)          10.8            0               3              
+4        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+5        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+6        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+7        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+8        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+9        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+10       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+11       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+12       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+13       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+14       OK              True (2)        3(2+1)          6(4+2)          14.4            0               4              
+15       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+16       OK              True (2)        6(3+3)          12(6+6)         25.2            0               7              
+17       OK              True (2)        6(3+3)          11(6+5)         25.2            0               7              
+18       OK              True (2)        4(3+1)          7(5+2)          18.0            0               5              
+19       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+20       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+21       OK              True (2)        4(3+1)          8(6+2)          14.4            0               4              
+22       NOTOK           False (0)       4               8               14.4            0               4              
+23       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+24       OK              True (1)        3               5               21.6            3               0              
+25       OK              True (1)        3               6               21.6            3               0              
+26       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+27       OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+28       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+29       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+30       NOTOK           True (2)        5(3+2)          10(6+4)         21.6            1               4              
+31       NOTOK           True (1)        3               5               21.6            3               0              
+32       OK              True (1)        4               6               21.6            3               0              
+33       OK              True (1)        3               6               21.6            3               0              
+34       OK              True (1)        4               6               21.6            3               0              
+35       OK              True (1)        4               6               21.6            3               0              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[1, 10], [1, 9]] [[1, 11], [1, 12]]
+MB 1 check results: OK
+	 Sub-trains are: [[8, 1], [7, 1], [6, 1]] [[9, 1], [10, 1], [11, 1]]
+MB 2 check results: OK
+	 Sub-trains are: [[10, 2], [9, 2]] [[11, 2], [12, 2]]
+MB 3 check results: OK
+	 Sub-trains are: [[7, 2], [6, 2]] [[8, 2]]
+MB 4 check results: OK
+	 Sub-trains are: [[10, 4], [9, 4], [8, 4]] [[11, 4], [12, 4], [13, 4]]
+MB 5 check results: OK
+	 Sub-trains are: [[10, 3], [9, 3]] [[11, 3], [12, 3], [13, 3]]
+MB 6 check results: OK
+	 Sub-trains are: [[10, 5], [9, 5]] [[11, 5], [12, 5], [13, 5]]
+MB 7 check results: OK
+	 Sub-trains are: [[11, 6]] [[12, 6], [13, 6]]
+MB 8 check results: OK
+	 Sub-trains are: [[11, 7], [10, 6], [12, 7]] [[12, 8], [13, 8], [13, 9]]
+MB 9 check results: OK
+	 Sub-trains are: [[10, 8], [9, 7]] [[11, 9], [12, 10], [13, 11]]
+MB 10 check results: OK
+	 Sub-trains are: [[10, 7], [9, 6], [8, 5]] [[11, 8], [12, 9], [13, 10]]
+MB 11 check results: OK
+	 Sub-trains are: [[9, 8], [8, 7], [7, 6]] [[10, 9], [11, 10], [12, 11]]
+MB 12 check results: OK
+	 Sub-trains are: [[8, 8], [7, 7], [6, 6]] [[9, 9], [10, 10], [11, 11]]
+MB 13 check results: OK
+	 Sub-trains are: [[8, 9], [7, 8], [6, 7]] [[9, 10], [10, 11], [11, 12]]
+MB 14 check results: OK
+	 Sub-trains are: [[9, 11], [8, 10]] [[10, 12], [11, 13]]
+MB 15 check results: OK
+	 Sub-trains are: [[8, 11], [7, 10]] [[9, 12], [10, 13]]
+MB 16 check results: OK
+	 Sub-trains are: [[6, 10], [5, 9], [4, 8]] [[7, 11], [8, 12], [9, 13], [9, 14]]
+MB 17 check results: OK
+	 Sub-trains are: [[6, 11], [5, 10], [6, 12]] [[7, 12], [8, 13], [7, 13], [8, 14]]
+MB 18 check results: OK
+	 Sub-trains are: [[5, 12], [5, 11], [6, 13]] [[5, 13], [6, 14]]
+MB 19 check results: OK
+	 Sub-trains are: [[4, 10], [4, 9]] [[4, 11], [4, 12], [4, 13]]
+MB 20 check results: OK
+	 Sub-trains are: [[3, 11], [3, 10]] [[3, 12], [3, 13]]
+MB 21 check results: OK
+	 Sub-trains are: [[7, 5], [6, 5], [6, 4]] [[8, 6]]
+MB 22 check results: Rules failed (details below)
+	 - Missing engine
+	 - Shape is not allowed
+MB 23 check results: OK
+	 Sub-trains are: [[1, 6]] [[1, 7], [1, 8]]
+MB 24 check results: OK
+MB 25 check results: OK
+MB 26 check results: OK
+	 Sub-trains are: [[2, 6]] [[2, 7], [2, 8]]
+MB 27 check results: OK
+	 Sub-trains are: [[2, 10], [2, 9]] [[2, 11], [2, 12], [2, 13]]
+MB 28 check results: OK
+	 Sub-trains are: [[3, 7]] [[3, 8], [3, 9]]
+MB 29 check results: OK
+	 Sub-trains are: [[4, 7], [3, 6]] [[5, 8], [6, 9]]
+MB 30 check results: Rules failed (details below)
+	 Sub-trains are: [[5, 7], [5, 6], [4, 6]] [[6, 8], [7, 9]]
+	 - Mixes modules types
+MB 31 check results: Rules failed (details below)
+	 - engine is not at the boundary with LD
+MB 32 check results: OK
+MB 33 check results: OK
+MB 34 check results: OK
+MB 35 check results: OK
+
+Layer 37 has 100 modules and 20 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+1        OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+2        OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+3        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+4        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+5        OK              True (2)        6(3+3)          12(6+6)         28.8            0               8              
+6        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+7        OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+8        OK              True (2)        5(3+2)          8(4+4)          18.0            0               5              
+9        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+10       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+11       OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+12       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+13       OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+14       OK              True (2)        4(1+3)          6(2+4)          12.0            0               4              
+15       OK              True (2)        6(3+3)          10(6+4)         19.2            0               6              
+16       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+17       OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+18       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+19       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[0, 5], [0, 4]] [[0, 6], [0, 7], [0, 8]]
+MB 1 check results: OK
+	 Sub-trains are: [[1, 3], [0, 3], [0, 2]] [[1, 4], [1, 5]]
+MB 2 check results: OK
+	 Sub-trains are: [[1, 7], [1, 6]] [[1, 8], [1, 9]]
+MB 3 check results: OK
+	 Sub-trains are: [[2, 6], [2, 5]] [[2, 7], [2, 8], [2, 9]]
+MB 4 check results: OK
+	 Sub-trains are: [[4, 6], [3, 5], [2, 4]] [[5, 7], [6, 8], [7, 9]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 7], [3, 6], [4, 8]] [[5, 8], [5, 9], [6, 9], [5, 10], [6, 10]]
+MB 6 check results: OK
+	 Sub-trains are: [[3, 7]] [[3, 8], [3, 9], [4, 9], [4, 10]]
+MB 7 check results: OK
+	 Sub-trains are: [[6, 7], [5, 6]] [[7, 8], [8, 9]]
+MB 8 check results: OK
+	 Sub-trains are: [[2, 3], [3, 3], [2, 2]] [[3, 4], [4, 5]]
+MB 9 check results: OK
+	 Sub-trains are: [[5, 5], [4, 4]] [[6, 6], [7, 7], [8, 8]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 6], [6, 5]] [[8, 7], [9, 8]]
+MB 11 check results: OK
+	 Sub-trains are: [[3, 2]] [[4, 3], [5, 4]]
+MB 12 check results: OK
+	 Sub-trains are: [[6, 4], [5, 3], [4, 2]] [[7, 5], [8, 6], [9, 7]]
+MB 13 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 14 check results: OK
+	 Sub-trains are: [[8, 4]] [[9, 5], [10, 5], [10, 6]]
+MB 15 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3], [9, 4]] [[9, 3], [10, 3], [10, 4]]
+MB 16 check results: OK
+	 Sub-trains are: [[6, 2], [5, 2]] [[7, 2], [8, 2], [9, 2], [10, 2]]
+MB 17 check results: OK
+	 Sub-trains are: [[3, 0], [4, 1], [3, 1]] [[4, 0], [5, 0]]
+MB 18 check results: OK
+	 Sub-trains are: [[6, 1], [5, 1]] [[7, 1], [8, 1], [9, 1]]
+MB 19 check results: OK
+	 Sub-trains are: [[7, 0], [6, 0]] [[8, 0], [9, 0]]
+
+Layer 38 has 100 modules and 19 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        WARN            True (2)        6(4+2)          11(8+3)         21.6            0               6              
+1        OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+2        OK              True (2)        5(3+2)          10(6+4)         21.6            0               6              
+3        OK              True (2)        4(1+3)          6(2+4)          12.0            0               4              
+4        OK              True (2)        6(3+3)          10(6+4)         19.2            0               6              
+5        OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+6        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+7        OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+8        OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+9        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+10       OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+11       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+12       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+13       OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+14       NOTOK           True (2)        6(1+5)          12(2+10)        28.8            0               8              
+15       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+16       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+17       OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+18       OK              True (2)        5(3+2)          10(6+4)         18.0            0               5              
+==============================================================================================================
+MB 0 check results: Some warnings found (details below)
+	 Sub-trains are: [[2, 9], [2, 8], [1, 9], [2, 7]] [[2, 10], [1, 10]]
+	 - Cross-over is required
+MB 1 check results: OK
+	 Sub-trains are: [[1, 5], [1, 4], [2, 5]] [[1, 6], [1, 7], [1, 8]]
+MB 2 check results: OK
+	 Sub-trains are: [[3, 8], [3, 7], [2, 6]] [[3, 9], [3, 10], [3, 11]]
+MB 3 check results: OK
+	 Sub-trains are: [[4, 9]] [[4, 10], [5, 11], [4, 11]]
+MB 4 check results: OK
+	 Sub-trains are: [[5, 9], [4, 8], [5, 10]] [[6, 10], [7, 11], [6, 11]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 7], [3, 6]] [[5, 8], [6, 9], [7, 10], [8, 11]]
+MB 6 check results: OK
+	 Sub-trains are: [[5, 7], [4, 6]] [[6, 8], [7, 9], [8, 10]]
+MB 7 check results: OK
+	 Sub-trains are: [[3, 4], [3, 5], [2, 4]] [[4, 5], [5, 6]]
+MB 8 check results: OK
+	 Sub-trains are: [[7, 8], [6, 7]] [[8, 9], [9, 10]]
+MB 9 check results: OK
+	 Sub-trains are: [[6, 6], [5, 5]] [[7, 7], [8, 8], [9, 9]]
+MB 10 check results: OK
+	 Sub-trains are: [[4, 3], [4, 4], [3, 3]] [[5, 4], [6, 5]]
+MB 11 check results: OK
+	 Sub-trains are: [[8, 7], [7, 6]] [[9, 8], [10, 9]]
+MB 12 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 13 check results: OK
+	 Sub-trains are: [[8, 5]] [[9, 6], [10, 7], [10, 6], [11, 7]]
+MB 14 check results: Rules failed (details below)
+	 Sub-trains are: [[7, 4]] [[8, 4], [9, 5], [9, 4], [10, 5], [10, 4], [11, 6], [11, 5]]
+	 - Cross-over is required
+	 - Shape is not allowed
+MB 15 check results: OK
+	 Sub-trains are: [[7, 3], [6, 3], [5, 3]] [[8, 3], [9, 3], [10, 3]]
+MB 16 check results: OK
+	 Sub-trains are: [[8, 2], [7, 2]] [[9, 2], [10, 2]]
+MB 17 check results: OK
+	 Sub-trains are: [[4, 2], [4, 1], [3, 1]] [[5, 2], [6, 2]]
+MB 18 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1], [5, 1]] [[8, 1], [9, 1]]
+
+Layer 39 has 100 modules and 19 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+1        OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+2        OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+3        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+4        OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+5        OK              True (2)        6(3+3)          12(6+6)         28.8            0               8              
+6        OK              True (2)        4(3+1)          8(6+2)          18.0            0               5              
+7        OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+8        OK              True (2)        5(3+2)          8(4+4)          18.0            0               5              
+9        OK              True (2)        5(3+2)          10(6+4)         18.0            0               5              
+10       WARN            True (2)        6(4+2)          11(8+3)         21.6            0               6              
+11       OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+12       OK              True (2)        5(3+2)          10(6+4)         21.6            0               6              
+13       OK              True (2)        4(3+1)          6(5+1)          12.0            0               4              
+14       OK              True (2)        6(3+3)          10(6+4)         19.2            0               6              
+15       OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+16       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+17       OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+18       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[0, 5], [0, 4]] [[0, 6], [0, 7], [0, 8]]
+MB 1 check results: OK
+	 Sub-trains are: [[1, 3], [0, 3], [0, 2]] [[1, 4], [1, 5]]
+MB 2 check results: OK
+	 Sub-trains are: [[1, 7], [1, 6]] [[1, 8], [1, 9]]
+MB 3 check results: OK
+	 Sub-trains are: [[2, 6], [2, 5]] [[2, 7], [2, 8], [2, 9]]
+MB 4 check results: OK
+	 Sub-trains are: [[4, 6], [3, 5], [2, 4]] [[5, 7], [6, 8], [7, 9]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 7], [3, 6], [4, 8]] [[5, 8], [5, 9], [6, 9], [5, 10], [6, 10]]
+MB 6 check results: OK
+	 Sub-trains are: [[3, 8], [3, 7], [4, 9]] [[3, 9], [4, 10]]
+MB 7 check results: OK
+	 Sub-trains are: [[6, 7], [5, 6]] [[7, 8], [8, 9]]
+MB 8 check results: OK
+	 Sub-trains are: [[2, 3], [3, 3], [2, 2]] [[3, 4], [4, 5]]
+MB 9 check results: OK
+	 Sub-trains are: [[6, 6], [5, 5], [4, 4]] [[7, 7], [8, 8]]
+MB 10 check results: Some warnings found (details below)
+	 Sub-trains are: [[8, 6], [7, 5], [8, 7], [6, 4]] [[9, 7], [9, 8]]
+	 - Cross-over is required
+MB 11 check results: OK
+	 Sub-trains are: [[4, 3], [3, 2], [4, 2]] [[5, 4], [6, 5], [7, 6]]
+MB 12 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3], [5, 3]] [[8, 5], [9, 6], [10, 7]]
+MB 13 check results: OK
+	 Sub-trains are: [[9, 5], [8, 4], [10, 5]] [[10, 6]]
+MB 14 check results: OK
+	 Sub-trains are: [[8, 3], [7, 3], [9, 4]] [[9, 3], [10, 3], [10, 4]]
+MB 15 check results: OK
+	 Sub-trains are: [[6, 2], [5, 2]] [[7, 2], [8, 2], [9, 2], [10, 2]]
+MB 16 check results: OK
+	 Sub-trains are: [[6, 1], [5, 1]] [[7, 1], [8, 1], [9, 1]]
+MB 17 check results: OK
+	 Sub-trains are: [[3, 0], [4, 1], [3, 1]] [[4, 0], [5, 0]]
+MB 18 check results: OK
+	 Sub-trains are: [[7, 0], [6, 0]] [[8, 0], [9, 0]]
+
+Layer 40 has 100 modules and 19 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        WARN            True (2)        6(4+2)          11(8+3)         21.6            0               6              
+1        OK              True (2)        6(3+3)          12(6+6)         21.6            0               6              
+2        OK              True (2)        5(3+2)          10(6+4)         21.6            0               6              
+3        OK              True (2)        4(1+3)          6(2+4)          12.0            0               4              
+4        OK              True (2)        6(3+3)          10(6+4)         19.2            0               6              
+5        OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+6        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+7        OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+8        OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+9        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+10       OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+11       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+12       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+13       OK              True (2)        6(3+3)          11(6+5)         21.6            0               6              
+14       OK              True (2)        6(3+3)          12(6+6)         28.8            0               8              
+15       OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+16       OK              True (2)        5(3+2)          9(5+4)          18.0            0               5              
+17       OK              True (2)        5(3+2)          10(6+4)         18.0            0               5              
+18       OK              True (2)        4(2+2)          7(4+3)          14.4            0               4              
+==============================================================================================================
+MB 0 check results: Some warnings found (details below)
+	 Sub-trains are: [[2, 9], [2, 8], [1, 9], [2, 7]] [[2, 10], [1, 10]]
+	 - Cross-over is required
+MB 1 check results: OK
+	 Sub-trains are: [[1, 5], [1, 4], [2, 5]] [[1, 6], [1, 7], [1, 8]]
+MB 2 check results: OK
+	 Sub-trains are: [[3, 8], [3, 7], [2, 6]] [[3, 9], [3, 10], [3, 11]]
+MB 3 check results: OK
+	 Sub-trains are: [[4, 9]] [[4, 10], [5, 11], [4, 11]]
+MB 4 check results: OK
+	 Sub-trains are: [[5, 9], [4, 8], [5, 10]] [[6, 10], [7, 11], [6, 11]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 7], [3, 6]] [[5, 8], [6, 9], [7, 10], [8, 11]]
+MB 6 check results: OK
+	 Sub-trains are: [[5, 7], [4, 6]] [[6, 8], [7, 9], [8, 10]]
+MB 7 check results: OK
+	 Sub-trains are: [[3, 4], [3, 5], [2, 4]] [[4, 5], [5, 6]]
+MB 8 check results: OK
+	 Sub-trains are: [[7, 8], [6, 7]] [[8, 9], [9, 10]]
+MB 9 check results: OK
+	 Sub-trains are: [[6, 6], [5, 5]] [[7, 7], [8, 8], [9, 9]]
+MB 10 check results: OK
+	 Sub-trains are: [[4, 3], [4, 4], [3, 3]] [[5, 4], [6, 5]]
+MB 11 check results: OK
+	 Sub-trains are: [[8, 7], [7, 6]] [[9, 8], [10, 9]]
+MB 12 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4]] [[8, 6], [9, 7], [10, 8]]
+MB 13 check results: OK
+	 Sub-trains are: [[7, 3], [6, 3], [5, 3]] [[8, 3], [9, 3], [10, 3]]
+MB 14 check results: OK
+	 Sub-trains are: [[8, 4], [7, 4], [9, 5]] [[9, 4], [10, 5], [10, 4], [11, 6], [11, 5]]
+MB 15 check results: OK
+	 Sub-trains are: [[8, 5]] [[9, 6], [10, 7], [10, 6], [11, 7]]
+MB 16 check results: OK
+	 Sub-trains are: [[4, 2], [4, 1], [3, 1]] [[5, 2], [6, 2]]
+MB 17 check results: OK
+	 Sub-trains are: [[7, 1], [6, 1], [5, 1]] [[8, 1], [9, 1]]
+MB 18 check results: OK
+	 Sub-trains are: [[8, 2], [7, 2]] [[9, 2], [10, 2]]
+
+Layer 41 has 76 modules and 14 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+1        OK              True (2)        6(3+3)          10(5+5)         21.6            0               6              
+2        OK              True (2)        6(3+3)          11(6+5)         25.2            0               7              
+3        OK              True (1)        4               8               18.0            0               5              
+4        OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+5        OK              True (2)        6(3+3)          10(5+5)         21.6            0               6              
+6        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+7        OK              True (2)        6(3+3)          10(5+5)         21.6            0               6              
+8        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+9        OK              True (2)        5(3+2)          9(6+3)          20.4            0               6              
+10       OK              True (2)        4(1+3)          6(2+4)          12.0            0               4              
+11       OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+12       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+13       OK              True (2)        6(3+3)          10(5+5)         21.6            0               6              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[0, 4], [0, 3]] [[0, 5], [0, 6], [0, 7]]
+MB 1 check results: OK
+	 Sub-trains are: [[1, 5], [1, 4], [1, 3]] [[1, 6], [1, 7], [1, 8]]
+MB 2 check results: OK
+	 Sub-trains are: [[2, 6], [2, 5], [3, 7]] [[2, 7], [3, 8], [2, 8], [4, 9]]
+MB 3 check results: OK
+MB 4 check results: OK
+	 Sub-trains are: [[3, 5], [2, 4]] [[4, 6], [5, 7], [6, 8]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 5], [3, 4], [2, 3]] [[5, 6], [6, 7], [7, 8]]
+MB 6 check results: OK
+	 Sub-trains are: [[4, 4], [3, 3]] [[5, 5], [6, 6], [7, 7]]
+MB 7 check results: OK
+	 Sub-trains are: [[5, 4], [4, 3], [3, 2]] [[6, 5], [7, 6], [8, 7]]
+MB 8 check results: OK
+	 Sub-trains are: [[5, 3], [4, 2]] [[6, 4], [7, 5], [8, 6]]
+MB 9 check results: OK
+	 Sub-trains are: [[7, 4], [6, 3], [8, 4]] [[8, 5], [9, 5], [9, 6]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 3]] [[8, 3], [9, 4], [9, 3]]
+MB 11 check results: OK
+	 Sub-trains are: [[6, 2], [5, 2]] [[7, 2], [8, 2], [9, 2]]
+MB 12 check results: OK
+	 Sub-trains are: [[5, 1], [4, 1]] [[6, 1], [7, 1], [8, 1]]
+MB 13 check results: OK
+	 Sub-trains are: [[5, 0], [4, 0], [3, 0]] [[6, 0], [7, 0], [8, 0]]
+
+Layer 42 has 76 modules and 14 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        6(3+3)          10(5+5)         21.6            0               6              
+1        OK              True (2)        5(2+3)          10(4+6)         21.6            0               6              
+2        OK              True (2)        5(3+2)          9(6+3)          16.8            0               5              
+3        OK              True (2)        4(1+3)          6(2+4)          12.0            0               4              
+4        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+5        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+6        OK              True (2)        6(3+3)          10(5+5)         21.6            0               6              
+7        OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+8        OK              True (2)        6(3+3)          10(5+5)         21.6            0               6              
+9        OK              True (2)        6(3+3)          11(6+5)         25.2            0               7              
+10       OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+11       OK              True (2)        5(2+3)          9(4+5)          18.0            0               5              
+12       OK              True (2)        6(3+3)          10(5+5)         21.6            0               6              
+13       OK              True (2)        5(2+3)          10(4+6)         18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[1, 6], [1, 5], [1, 4]] [[1, 7], [1, 8], [1, 9]]
+MB 1 check results: OK
+	 Sub-trains are: [[2, 6], [2, 5]] [[2, 7], [2, 8], [2, 9], [3, 10]]
+MB 2 check results: OK
+	 Sub-trains are: [[3, 8], [3, 7], [4, 9]] [[3, 9], [4, 10]]
+MB 3 check results: OK
+	 Sub-trains are: [[4, 8]] [[5, 9], [5, 10], [6, 10]]
+MB 4 check results: OK
+	 Sub-trains are: [[4, 7], [3, 6]] [[5, 8], [6, 9], [7, 10]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 6], [3, 5]] [[5, 7], [6, 8], [7, 9]]
+MB 6 check results: OK
+	 Sub-trains are: [[5, 6], [4, 5], [3, 4]] [[6, 7], [7, 8], [8, 9]]
+MB 7 check results: OK
+	 Sub-trains are: [[5, 5], [4, 4]] [[6, 6], [7, 7], [8, 8]]
+MB 8 check results: OK
+	 Sub-trains are: [[6, 5], [5, 4], [4, 3]] [[7, 6], [8, 7], [9, 8]]
+MB 9 check results: OK
+	 Sub-trains are: [[7, 5], [6, 4], [8, 5]] [[8, 6], [9, 6], [9, 7], [10, 6]]
+MB 10 check results: OK
+	 Sub-trains are: [[7, 4]] [[8, 4], [9, 5], [9, 4], [10, 5]]
+MB 11 check results: OK
+	 Sub-trains are: [[6, 3], [5, 3]] [[7, 3], [8, 3], [9, 3]]
+MB 12 check results: OK
+	 Sub-trains are: [[6, 2], [5, 2], [4, 2]] [[7, 2], [8, 2], [9, 2]]
+MB 13 check results: OK
+	 Sub-trains are: [[5, 1], [4, 1]] [[6, 1], [7, 1], [8, 1]]
+
+Layer 43 has 56 modules and 11 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+1        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+2        OK              True (2)        4(1+3)          6(2+4)          14.4            0               4              
+3        OK              True (2)        6(3+3)          10(6+4)         21.6            0               6              
+4        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+5        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+6        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+7        OK              True (2)        6(3+3)          12(6+6)         28.8            0               8              
+8        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+9        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+10       OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[0, 4], [0, 3]] [[0, 5], [0, 6]]
+MB 1 check results: OK
+	 Sub-trains are: [[1, 4], [1, 3]] [[1, 5], [1, 6], [1, 7]]
+MB 2 check results: OK
+	 Sub-trains are: [[2, 5]] [[2, 6], [2, 7], [3, 7]]
+MB 3 check results: OK
+	 Sub-trains are: [[3, 5], [2, 4], [3, 6]] [[4, 6], [4, 7], [5, 7]]
+MB 4 check results: OK
+	 Sub-trains are: [[3, 4], [2, 3]] [[4, 5], [5, 6], [6, 7]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 4], [3, 3]] [[5, 5], [6, 6]]
+MB 6 check results: OK
+	 Sub-trains are: [[4, 3], [3, 2]] [[5, 4], [6, 5], [7, 6]]
+MB 7 check results: OK
+	 Sub-trains are: [[5, 3], [4, 2], [6, 3]] [[6, 4], [7, 4], [7, 5], [8, 4], [8, 5]]
+MB 8 check results: OK
+	 Sub-trains are: [[5, 2]] [[6, 2], [7, 2], [7, 3], [8, 3]]
+MB 9 check results: OK
+	 Sub-trains are: [[5, 1], [4, 1]] [[6, 1], [7, 1], [8, 2]]
+MB 10 check results: OK
+	 Sub-trains are: [[4, 0], [3, 0]] [[5, 0], [6, 0], [7, 0]]
+
+Layer 44 has 56 modules and 11 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+1        OK              True (2)        6(3+3)          12(6+6)         28.8            0               8              
+2        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+3        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+4        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+5        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+6        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+7        OK              True (2)        4(1+3)          6(2+4)          14.4            0               4              
+8        OK              True (2)        6(3+3)          10(6+4)         21.6            0               6              
+9        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+10       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[1, 5], [1, 4]] [[1, 6], [1, 7], [1, 8]]
+MB 1 check results: OK
+	 Sub-trains are: [[2, 6], [2, 5], [3, 7]] [[2, 7], [3, 8], [2, 8], [4, 9], [3, 9]]
+MB 2 check results: OK
+	 Sub-trains are: [[3, 6]] [[4, 7], [5, 8], [4, 8], [5, 9]]
+MB 3 check results: OK
+	 Sub-trains are: [[4, 6], [3, 5]] [[5, 7], [6, 8], [6, 9]]
+MB 4 check results: OK
+	 Sub-trains are: [[4, 5], [3, 4]] [[5, 6], [6, 7], [7, 8]]
+MB 5 check results: OK
+	 Sub-trains are: [[5, 5], [4, 4]] [[6, 6], [7, 7]]
+MB 6 check results: OK
+	 Sub-trains are: [[5, 4], [4, 3]] [[6, 5], [7, 6], [8, 7]]
+MB 7 check results: OK
+	 Sub-trains are: [[6, 4]] [[7, 5], [8, 6], [8, 5]]
+MB 8 check results: OK
+	 Sub-trains are: [[6, 3], [5, 3], [7, 4]] [[7, 3], [8, 4], [8, 3]]
+MB 9 check results: OK
+	 Sub-trains are: [[5, 2], [4, 2]] [[6, 2], [7, 2], [8, 2]]
+MB 10 check results: OK
+	 Sub-trains are: [[5, 1], [4, 1]] [[6, 1], [7, 1]]
+
+Layer 45 has 56 modules and 11 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+1        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+2        OK              True (2)        4(1+3)          6(2+4)          14.4            0               4              
+3        OK              True (2)        6(3+3)          10(6+4)         21.6            0               6              
+4        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+5        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+6        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+7        OK              True (2)        6(3+3)          12(6+6)         28.8            0               8              
+8        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+9        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+10       OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[0, 4], [0, 3]] [[0, 5], [0, 6]]
+MB 1 check results: OK
+	 Sub-trains are: [[1, 4], [1, 3]] [[1, 5], [1, 6], [1, 7]]
+MB 2 check results: OK
+	 Sub-trains are: [[2, 5]] [[2, 6], [2, 7], [3, 7]]
+MB 3 check results: OK
+	 Sub-trains are: [[3, 5], [2, 4], [3, 6]] [[4, 6], [4, 7], [5, 7]]
+MB 4 check results: OK
+	 Sub-trains are: [[3, 4], [2, 3]] [[4, 5], [5, 6], [6, 7]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 4], [3, 3]] [[5, 5], [6, 6]]
+MB 6 check results: OK
+	 Sub-trains are: [[4, 3], [3, 2]] [[5, 4], [6, 5], [7, 6]]
+MB 7 check results: OK
+	 Sub-trains are: [[5, 3], [4, 2], [6, 3]] [[6, 4], [7, 4], [7, 5], [8, 4], [8, 5]]
+MB 8 check results: OK
+	 Sub-trains are: [[5, 2]] [[6, 2], [7, 2], [7, 3], [8, 3]]
+MB 9 check results: OK
+	 Sub-trains are: [[5, 1], [4, 1]] [[6, 1], [7, 1], [8, 2]]
+MB 10 check results: OK
+	 Sub-trains are: [[4, 0], [3, 0]] [[5, 0], [6, 0], [7, 0]]
+
+Layer 46 has 56 modules and 11 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+1        OK              True (2)        6(3+3)          12(6+6)         28.8            0               8              
+2        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+3        OK              True (2)        4(2+2)          8(4+4)          18.0            0               5              
+4        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+5        OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+6        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+7        OK              True (2)        4(1+3)          6(2+4)          14.4            0               4              
+8        OK              True (2)        6(3+3)          10(6+4)         21.6            0               6              
+9        OK              True (2)        5(2+3)          8(3+5)          18.0            0               5              
+10       OK              True (2)        4(2+2)          8(4+4)          14.4            0               4              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[1, 5], [1, 4]] [[1, 6], [1, 7], [1, 8]]
+MB 1 check results: OK
+	 Sub-trains are: [[2, 6], [2, 5], [3, 7]] [[2, 7], [3, 8], [2, 8], [4, 9], [3, 9]]
+MB 2 check results: OK
+	 Sub-trains are: [[3, 6]] [[4, 7], [5, 8], [4, 8], [5, 9]]
+MB 3 check results: OK
+	 Sub-trains are: [[4, 6], [3, 5]] [[5, 7], [6, 8], [6, 9]]
+MB 4 check results: OK
+	 Sub-trains are: [[4, 5], [3, 4]] [[5, 6], [6, 7], [7, 8]]
+MB 5 check results: OK
+	 Sub-trains are: [[5, 5], [4, 4]] [[6, 6], [7, 7]]
+MB 6 check results: OK
+	 Sub-trains are: [[5, 4], [4, 3]] [[6, 5], [7, 6], [8, 7]]
+MB 7 check results: OK
+	 Sub-trains are: [[6, 4]] [[7, 5], [8, 6], [8, 5]]
+MB 8 check results: OK
+	 Sub-trains are: [[6, 3], [5, 3], [7, 4]] [[7, 3], [8, 4], [8, 3]]
+MB 9 check results: OK
+	 Sub-trains are: [[5, 2], [4, 2]] [[6, 2], [7, 2], [8, 2]]
+MB 10 check results: OK
+	 Sub-trains are: [[5, 1], [4, 1]] [[6, 1], [7, 1]]
+
+Layer 47 has 40 modules and 9 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+1        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+2        OK              True (2)        4(1+3)          6(2+4)          14.4            0               4              
+3        OK              True (2)        6(3+3)          9(5+4)          21.6            0               6              
+4        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+5        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+6        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+7        OK              True (2)        5(2+3)          10(4+6)         25.2            0               7              
+8        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[0, 3]] [[0, 4], [0, 5]]
+MB 1 check results: OK
+	 Sub-trains are: [[1, 4], [1, 3]] [[1, 5], [1, 6]]
+MB 2 check results: OK
+	 Sub-trains are: [[2, 4]] [[2, 5], [2, 6], [3, 6]]
+MB 3 check results: OK
+	 Sub-trains are: [[3, 4], [3, 5], [2, 3]] [[4, 5], [4, 6], [5, 6]]
+MB 4 check results: OK
+	 Sub-trains are: [[3, 3]] [[4, 4], [5, 5]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 3], [3, 2]] [[5, 4], [6, 5]]
+MB 6 check results: OK
+	 Sub-trains are: [[4, 2]] [[5, 3], [6, 3], [6, 4], [7, 4]]
+MB 7 check results: OK
+	 Sub-trains are: [[4, 1], [5, 2]] [[5, 1], [6, 1], [6, 2], [7, 2], [7, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[4, 0], [3, 0]] [[5, 0], [6, 0]]
+
+Layer 48 has 40 modules and 9 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+1        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+2        OK              True (2)        5(2+3)          10(4+6)         25.2            0               7              
+3        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+4        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+5        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+6        OK              True (2)        4(1+3)          6(2+4)          14.4            0               4              
+7        OK              True (2)        6(3+3)          9(5+4)          21.6            0               6              
+8        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[1, 5], [1, 4]] [[1, 6], [1, 7]]
+MB 1 check results: OK
+	 Sub-trains are: [[2, 5]] [[2, 6], [3, 7], [2, 7], [3, 8]]
+MB 2 check results: OK
+	 Sub-trains are: [[3, 5], [3, 6]] [[4, 6], [5, 7], [4, 7], [5, 8], [4, 8]]
+MB 3 check results: OK
+	 Sub-trains are: [[4, 5], [3, 4]] [[5, 6], [6, 7]]
+MB 4 check results: OK
+	 Sub-trains are: [[4, 4]] [[5, 5], [6, 6]]
+MB 5 check results: OK
+	 Sub-trains are: [[5, 4], [4, 3]] [[6, 5], [7, 6]]
+MB 6 check results: OK
+	 Sub-trains are: [[5, 3]] [[6, 4], [7, 5], [7, 4]]
+MB 7 check results: OK
+	 Sub-trains are: [[5, 2], [6, 3], [4, 2]] [[6, 2], [7, 3], [7, 2]]
+MB 8 check results: OK
+	 Sub-trains are: [[4, 1]] [[5, 1], [6, 1]]
+
+Layer 49 has 40 modules and 9 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+1        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+2        OK              True (2)        4(1+3)          6(2+4)          14.4            0               4              
+3        OK              True (2)        6(3+3)          9(5+4)          21.6            0               6              
+4        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+5        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+6        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+7        OK              True (2)        5(2+3)          10(4+6)         25.2            0               7              
+8        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[0, 3]] [[0, 4], [0, 5]]
+MB 1 check results: OK
+	 Sub-trains are: [[1, 4], [1, 3]] [[1, 5], [1, 6]]
+MB 2 check results: OK
+	 Sub-trains are: [[2, 4]] [[2, 5], [2, 6], [3, 6]]
+MB 3 check results: OK
+	 Sub-trains are: [[3, 4], [3, 5], [2, 3]] [[4, 5], [4, 6], [5, 6]]
+MB 4 check results: OK
+	 Sub-trains are: [[3, 3]] [[4, 4], [5, 5]]
+MB 5 check results: OK
+	 Sub-trains are: [[4, 3], [3, 2]] [[5, 4], [6, 5]]
+MB 6 check results: OK
+	 Sub-trains are: [[4, 2]] [[5, 3], [6, 3], [6, 4], [7, 4]]
+MB 7 check results: OK
+	 Sub-trains are: [[4, 1], [5, 2]] [[5, 1], [6, 1], [6, 2], [7, 2], [7, 3]]
+MB 8 check results: OK
+	 Sub-trains are: [[4, 0], [3, 0]] [[5, 0], [6, 0]]
+
+Layer 50 has 40 modules and 9 MBs
+All modules are assigned to a MB
+MB       Status          Engine          Dlinks          Tlinks          Power           nHDs            nLDs           
+==============================================================================================================
+0        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+1        OK              True (2)        4(1+3)          8(2+6)          18.0            0               5              
+2        OK              True (2)        5(2+3)          10(4+6)         25.2            0               7              
+3        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+4        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+5        OK              True (2)        4(2+2)          6(3+3)          14.4            0               4              
+6        OK              True (2)        4(1+3)          6(2+4)          14.4            0               4              
+7        OK              True (2)        6(3+3)          9(5+4)          21.6            0               6              
+8        OK              True (2)        3(1+2)          6(2+4)          10.8            0               3              
+==============================================================================================================
+MB 0 check results: OK
+	 Sub-trains are: [[1, 5], [1, 4]] [[1, 6], [1, 7]]
+MB 1 check results: OK
+	 Sub-trains are: [[2, 5]] [[2, 6], [3, 7], [2, 7], [3, 8]]
+MB 2 check results: OK
+	 Sub-trains are: [[3, 5], [3, 6]] [[4, 6], [5, 7], [4, 7], [5, 8], [4, 8]]
+MB 3 check results: OK
+	 Sub-trains are: [[4, 5], [3, 4]] [[5, 6], [6, 7]]
+MB 4 check results: OK
+	 Sub-trains are: [[4, 4]] [[5, 5], [6, 6]]
+MB 5 check results: OK
+	 Sub-trains are: [[5, 4], [4, 3]] [[6, 5], [7, 6]]
+MB 6 check results: OK
+	 Sub-trains are: [[5, 3]] [[6, 4], [7, 5], [7, 4]]
+MB 7 check results: OK
+	 Sub-trains are: [[5, 2], [6, 3], [4, 2]] [[6, 2], [7, 3], [7, 2]]
+MB 8 check results: OK
+	 Sub-trains are: [[4, 1]] [[5, 1], [6, 1]]
+
